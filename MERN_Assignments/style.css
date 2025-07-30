@@ -1,0 +1,81 @@
+/* Reset & Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+body {
+  background: #f9f9f9;
+}
+
+/* Container Wrapping */
+.container {
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+/* Header */
+.site-header {
+  background: #2c3e50;
+  color: #fff;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.site-header h1 {
+  font-size: 2.5rem;
+}
+
+.site-header .subtitle {
+  margin-top: 0.5rem;
+  font-size: 1.1rem;
+  opacity: 0.8;
+}
+
+.contact-list {
+  list-style: none;
+  margin-top: 1.5rem;
+}
+
+.contact-list li {
+  display: inline-block;
+  margin: 0 1rem;
+  font-size: 0.9rem;
+}
+
+.contact-list a {
+  color: #ecf0f1;
+  text-decoration: none;
+}
+
+.contact-list a:hover {
+  text-decoration: underline;
+}
+
+/* Sections */
+section {
+  margin-bottom: 2rem;
+}
+
+section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  border-left: 4px solid #2c3e50;
+  padding-left: 0.5rem;
+}
+
+/* Timeline for Education */
+.timeline .entry {
+  margin-bottom: 1.5rem;
+}
+
+.timeline
