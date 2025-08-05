@@ -1,0 +1,404 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1a1a1a;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+/* Main Content */
+.main-content {
+    width: 60%;
+    height: 100vh;
+    float: left;
+    padding: 40px 60px;
+    position: relative;
+}
+
+/* Header Section */
+.header {
+    margin-bottom: 60px;
+}
+
+.tech-logos {
+    margin-bottom: 40px;
+}
+
+.logo {
+    width: 80px;
+    height: 100px;
+    display: inline-block;
+    margin-right: 20px;
+    position: relative;
+    border-radius: 8px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.html-logo {
+    background: linear-gradient(135deg, #e44d26, #f16529);
+}
+
+.css-logo {
+    background: linear-gradient(135deg, #0070f3, #1e90ff);
+}
+
+.js-logo {
+    background: linear-gradient(135deg, #f7df1e, #ffdd44);
+    color: #000;
+}
+
+.logo-text {
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 15px;
+    letter-spacing: 1px;
+}
+
+.logo-number {
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.main-title {
+    font-size: 48px;
+    font-weight: 300;
+    line-height: 1.2;
+    color: #ffffff;
+}
+
+/* Portfolio Section */
+.portfolio-section {
+    background-color: #2a2a2a;
+    border-radius: 12px;
+    padding: 40px;
+    margin-bottom: 40px;
+    position: relative;
+    height: 500px;
+}
+
+.portfolio-header {
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.name {
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #ffffff;
+    float: left;
+}
+
+.nav-menu {
+    float: right;
+}
+
+.nav-item {
+    margin-left: 30px;
+    color: #cccccc;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.nav-item:hover {
+    color: #ffffff;
+}
+
+.profile-content {
+    clear: both;
+    position: relative;
+    height: 380px;
+}
+
+.profile-text {
+    width: 50%;
+    float: left;
+    padding-right: 40px;
+}
+
+.profile-text h2 {
+    font-size: 36px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+.highlight-name {
+    font-weight: bold;
+}
+
+.description {
+    color: #cccccc;
+    margin-bottom: 40px;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.contact-section {
+    margin-bottom: 40px;
+}
+
+.contact-btn {
+    background-color: #a4d65e;
+    color: #000000;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 20px;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.social-icons {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.social-icon {
+    display: inline-block;
+    margin-left: 15px;
+    width: 35px;
+    height: 35px;
+    border: 1px solid #555;
+    border-radius: 6px;
+    text-align: center;
+    line-height: 33px;
+    cursor: pointer;
+    font-size: 12px;
+    color: #cccccc;
+}
+
+.social-icon:hover {
+    border-color: #a4d65e;
+    color: #a4d65e;
+}
+
+.scroll-down {
+    color: #888888;
+    font-size: 14px;
+    position: absolute;
+    bottom: 0;
+}
+
+.profile-image {
+    width: 45%;
+    float: right;
+    height: 100%;
+    position: relative;
+}
+
+.profile-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+/* Featured Projects Bottom */
+.featured-bottom {
+    clear: both;
+    padding-top: 40px;
+}
+
+.featured-bottom h3 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}
+
+.featured-bottom p {
+    color: #cccccc;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 40%;
+    height: 100vh;
+    float: right;
+    background-color: #151515;
+    padding: 40px 30px;
+    overflow-y: auto;
+}
+
+.sidebar-header {
+    margin-bottom: 40px;
+}
+
+.sidebar-header h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}
+
+.sidebar-header p {
+    color: #cccccc;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* Project Cards */
+.project-card {
+    background-color: #1a1a1a;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    overflow: hidden;
+    border: 1px solid #333;
+}
+
+.card-image {
+    width: 100%;
+    height: 180px;
+    overflow: hidden;
+}
+
+.card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 25px;
+}
+
+.card-category {
+    color: #888888;
+    font-size: 12px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.card-content h4 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    line-height: 1.3;
+    font-weight: 600;
+}
+
+.card-content p {
+    color: #cccccc;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 25px;
+}
+
+.card-details {
+    border-top: 1px solid #333;
+    padding-top: 20px;
+}
+
+.detail-item {
+    margin-bottom: 15px;
+}
+
+.label {
+    color: #888888;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.detail-row {
+    margin-bottom: 8px;
+    position: relative;
+}
+
+.detail-label {
+    color: #cccccc;
+    font-size: 13px;
+    display: inline-block;
+    width: 80px;
+}
+
+.detail-value {
+    color: #ffffff;
+    font-size: 13px;
+    float: right;
+    font-weight: 500;
+}
+
+.card-links {
+    margin-top: 20px;
+    padding-top: 15px;
+    border-top: 1px solid #333;
+}
+
+.link {
+    color: #a4d65e;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-right: 20px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.link:hover {
+    color: #8bc34a;
+}
+
+/* Clear floats */
+.portfolio-header::after,
+.profile-content::after,
+.detail-row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+    .main-content {
+        width: 55%;
+    }
+    
+    .sidebar {
+        width: 45%;
+    }
+}
+
+@media (max-width: 768px) {
+    .main-content,
+    .sidebar {
+        width: 100%;
+        float: none;
+        height: auto;
+    }
+    
+    .main-title {
+        font-size: 36px;
+    }
+    
+    .profile-text,
+    .profile-image {
+        width: 100%;
+        float: none;
+    }
+    
+    .profile-image {
+        margin-top: 30px;
+        height: 300px;
+    }
+}
