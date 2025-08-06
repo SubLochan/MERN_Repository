@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HTML - Wikipedia Style</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Wikipedia font -->
+  <link href="https://fonts.googleapis.com/css?family=Linux+Libertine:400,700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Linux Libertine', 'Georgia', 'Times', serif;
+      background: #f8f9fa;
+      color: #202122;
+      margin: 0;
+      padding: 0;
+    }
+    a { color: #0645ad; text-decoration: none; }
+    a:hover { text-decoration: underline; color: #0b0080; }
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      background: #fff;
+      border-left: 1px solid #a2a9b1;
+      border-right: 1px solid #a2a9b1;
+      min-height: 100vh;
+      padding: 30px;
+    }
+    h1, h2, h3, h4, h5 {
+      font-family: 'Linux Libertine', 'Georgia', 'Times', serif;
+      font-weight: normal;
+      color: #222;
+      margin-top: 1.2em;
+      margin-bottom: 0.5em;
+    }
+    h1 { font-size: 2em; border-bottom: 1px solid #a2a9b1; padding-bottom: 0.3em; }
+    h2 { font-size: 1.5em; border-bottom: 1px solid #a2a9b1; padding-bottom: 0.2em; }
+    h3 { font-size: 1.2em; }
+    h4, h5 { font-size: 1em; }
+    p { margin: 0.8em 0; }
+    code, pre {
+      background: #f1f1f1;
+      border: 1px solid #ccc;
+      padding: 2px 4px;
+      font-size: 95%;
+      font-family: 'Consolas', 'Monaco', 'monospace';
+    }
+    .infobox {
+      float: right;
+      width: 270px;
+      background: #f8f9fa;
+      border: 1px solid #a2a9b1;
+      padding: 10px;
+      margin: 20px 0 20px 20px;
+      font-size: 90%;
+      line-height: 1.4;
+    }
+    .infobox th {
+      background: #eaecf0;
+      font-weight: bold;
+      text-align: left;
+      padding: 4px 8px;
+      border-bottom: 1px solid #a2a9b1;
+    }
+    .infobox td {
+      padding: 4px 8px;
+      border-bottom: 1px solid #a2a9b1;
+    }
+    .wikitable {
+      border-collapse: collapse;
+      width: 100%;
+      margin: 1em 0;
+      background: #fff;
+    }
+    .wikitable th, .wikitable td {
+      border: 1px solid #a2a9b1;
+      padding: 6px 10px;
+      text-align: left;
+    }
+    .wikitable th {
+      background: #eaecf0;
+    }
+    figure {
+      margin: 1em 0;
+      text-align: center;
+    }
+    figcaption {
+      font-size: 0.9em;
+      color: #54595d;
+      margin-top: 4px;
+    }
+    ul, ol, dl { margin: 1em 0 1em 2em; }
+    blockquote {
+      background: #f8f9fa;
+      border-left: 3px solid #a2a9b1;
+      margin: 1em 0;
+      padding: 0.5em 1em;
+    }
+    .hatnote {
+      font-style: italic;
+      margin-bottom: 0.5em;
+      padding-left: 1.6em;
+      color: #54595d;
+    }
+    @media (max-width: 900px) {
+      .container { max-width: 100%; border: none; }
+      .infobox { float: none; width: 100%; margin: 20px 0; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="infobox">
+      <table>
+        <tr><th colspan="2" style="text-align:center;">HTML</th></tr>
+        <tr>
+          <td colspan="2" style="text-align:center;">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="HTML Logo" width="120">
+            <div>Official logo of <a href="#">HTML5</a></div>
+          </td>
+        </tr>
+        <tr><th>Filename extension</th><td><code>.html</code>, <code>.htm</code></td></tr>
+        <tr><th>Internet media type</th><td><code>text/html</code></td></tr>
+        <tr><th>Type code</th><td>TEXT</td></tr>
+        <tr><th>Uniform Type Identifier</th><td>public.html</td></tr>
+        <tr><th>Developed by</th><td>WHATWG, World Wide Web Consortium</td></tr>
+        <tr><th>Initial release</th><td>1993; 32 years ago</td></tr>
+        <tr><th>Latest release</th><td><a href="https://html.spec.whatwg.org/multipage/">Living Standard</a></td></tr>
+        <tr><th>Type of format</th><td>Document file format</td></tr>
+        <tr><th>Container for</th><td>HTML elements</td></tr>
+        <tr><th>Contained by</th><td>Web browser</td></tr>
+        <tr><th>Extended from</th><td>SGML</td></tr>
+        <tr><th>Extended to</th><td>XHTML</td></tr>
+        <tr><th>Open format</th><td>Yes</td></tr>
+        <tr><th>Website</th><td><a href="https://html.spec.whatwg.org/">html.spec.whatwg.org</a></td></tr>
+      </table>
+    </div>
+
+    <div class="hatnote">".htm" and ".html" redirect here. For other uses, see <a href="#">HTM</a>.</div>
+    <h1>HTML</h1>
+    <p><b>Hypertext Markup Language</b> (<b>HTML</b>) is the standard <a href="#">markup language</a> for documents designed to be displayed in a <a href="#">web browser</a>. It defines the content and structure of <a href="#">web content</a>. It is often assisted by technologies such as <a href="#">Cascading Style Sheets</a> (CSS) and scripting languages such as <a href="#">JavaScript</a>.</p>
+    <p><a href="#">Web browsers</a> receive HTML documents from a <a href="#">web server</a> or from local storage and render them into multimedia web pages. HTML describes the structure of a <a href="#">web page semantically</a> and originally included cues for its appearance.</p>
+    <p><a href="#">HTML elements</a> are the building blocks of HTML pages. With HTML constructs, <a href="#">images</a> and other objects such as <a href="#">interactive forms</a> may be embedded into the rendered page. HTML provides a means to create <a href="#">structured documents</a> by denoting structural semantics for text such as headings, paragraphs, lists, <a href="#">links</a>, quotes, and other items. HTML elements are delineated by <a href="#">tags</a>, written using <a href="#">angle brackets</a>. Tags such as <code>&lt;img&gt;</code> and <code>&lt;input&gt;</code> directly introduce content into the page. Other tags such as <code>&lt;p&gt;</code> and <code>&lt;/p&gt;</code> surround and provide information about document text and may include sub-element tags. <a href="#">Browsers</a> do not display the HTML tags, but use them to interpret the content of the page.</p>
+    <p>HTML can embed programs written in a scripting language such as <a href="#">JavaScript</a>, which affects the behavior and content of web pages. The inclusion of CSS defines the look and layout of content. The <a href="#">World Wide Web Consortium</a> (W3C), former maintainer of the HTML and current maintainer of the CSS standards, has encouraged the use of CSS over explicit presentational HTML since 1997. A form of HTML, known as <a href="#">HTML5</a>, is used to display video and audio, primarily using the <code>&lt;canvas&gt;</code> element, together with JavaScript.</p>
+
+    <h2>History</h2>
+    <h3>Development</h3>
+    <figure>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/4/49/Tim_Berners-Lee_April_2009.jpg" alt="Tim Berners-Lee" width="190">
+      <figcaption>Tim Berners-Lee in April 2009</figcaption>
+    </figure>
+    <p>In 1980, physicist Tim Berners-Lee, a contractor at CERN, proposed and prototyped ENQUIRE, a system for CERN researchers to use and share documents. In 1989, Berners-Lee wrote a memo proposing an Internet-based hypertext system. Berners-Lee specified HTML and wrote the browser and server software in late 1990. That year, Berners-Lee and CERN data systems engineer Robert Cailliau collaborated on a joint request for funding, but the project was not formally adopted by CERN. In his personal notes of 1990, Berners-Lee listed "some of the many areas in which hypertext is used": an encyclopedia is the first entry.</p>
+    <p>The first publicly available description of HTML was a document called "HTML Tags", first mentioned on the Internet by Tim Berners-Lee in late 1991. It describes 18 elements comprising the initial, relatively simple design of HTML. Except for the hyperlink tag, these were strongly influenced by CERN SGML, an in-house Standard Generalized Markup Language (SGML)-based documentation format at CERN. Eleven of these elements still exist in HTML 4.</p>
+    <p>HTML is a markup language that web browsers use to interpret and compose text, images, and other material into visible or audible web pages. Default characteristics for every item of HTML markup are defined in the browser, and these characteristics can be altered or enhanced by the web page designer’s additional use of CSS. Many of the text elements are mentioned in the 1988 ISO technical report TR 9537 <em>Techniques for using SGML</em>, which describes the features of early text formatting languages such as that used by the RUNOFF command developed in the early 1960s for the CTSS operating system. These formatting commands were derived from commands used by typographers to manually format documents. However, the SGML concept of generalized markup is based on elements rather than merely formatting, with separate structure and markup. HTML has been progressively moved in this direction with CSS.</p>
+    <p>Berners-Lee considered HTML to be an application of SGML. It was formally defined as such by the Internet Engineering Task Force (IETF) with the mid-1993 publication of the first proposal for an HTML specification, the "Hypertext Markup Language (HTML)" Internet Draft by Berners-Lee and Dan Connolly, which included an SGML Document Type Definition to define the grammar. The draft expired after six months, but was notable for its acknowledgment of the NCSA Mosaic browser’s custom tag for embedding in-line images, reflecting the IETF's direction of HTML toward practical deployment.</p>
+
+    <h3>HTML version timeline</h3>
+    <h4>HTML 2</h4>
+    <ul>
+      <li>November 24, 1995: HTML 2.0 was published as RFC 1866. Supplemental RFCs added capabilities:
+        <ul>
+          <li>November 25, 1995: RFC 1867 (form-based file upload)</li>
+          <li>May 1996: RFC 1942 (tables)</li>
+          <li>August 1996: RFC 1980 (client-side image maps)</li>
+          <li>January 1997: RFC 2070 (internationalization)</li>
+        </ul>
+      </li>
+    </ul>
+    <h4>HTML 3</h4>
+    <ul>
+      <li>January 14, 1997: HTML 3.2 was published as a W3C Recommendation. It was the first version developed and standardized exclusively by the W3C.</li>
+      <li>Initially code-named "Wilbur", HTML 3.2 dropped math formulas entirely, reconciled overlap among various proprietary extensions and adopted most of Netscape's visual markup tags. Netscape's blink element and Microsoft's marquee element were omitted.</li>
+    </ul>
+    <h4>HTML 4</h4>
+    <ul>
+      <li>December 18, 1997: HTML 4.0 was published as a W3C Recommendation. It offers three variations:
+        <ul>
+          <li>Strict: deprecated elements forbidden</li>
+          <li>Transitional: deprecated elements allowed</li>
+          <li>Frameset: mostly only frame related elements allowed</li>
+        </ul>
+      </li>
+      <li>Initially code-named "Cougar", HTML 4.0 adopted many browser-specific element types and attributes, but also sought to phase out Netscape's visual markup features by marking them as deprecated in favor of style sheets.</li>
+      <li>April 24, 1998: HTML 4.0 was reissued with minor edits.</li>
+      <li>December 24, 1999: HTML 4.01 was published as a W3C Recommendation.</li>
+      <li>May 2000: ISO/IEC 15445:2000 ("ISO HTML", based on HTML 4.01 Strict) was published as an ISO/IEC international standard.</li>
+    </ul>
+    <h4>HTML 5</h4>
+    <div class="hatnote">Main article: <a href="#">HTML5</a></div>
+    <ul>
+      <li>October 28, 2014: HTML5 was published as a W3C Recommendation.</li>
+      <li>November 1, 2016: HTML 5.1 was published as a W3C Recommendation.</li>
+      <li>December 14, 2017: HTML 5.2 was published as a W3C Recommendation.</li>
+    </ul>
+    <h3>Transition of HTML publication to WHATWG</h3>
+    <div class="hatnote">See also: <a href="#">HTML5 § W3C and WHATWG conflict</a></div>
+    <p>On 28 May 2019, the W3C announced that WHATWG would be the sole publisher of the HTML and DOM standards. The W3C and WHATWG had been publishing competing standards since 2012. While the W3C standard was identical to the WHATWG in 2007 the standards have since progressively diverged due to different design decisions. The WHATWG "Living Standard" had been the <i>de facto</i> web standard for some time.</p>
+
+    <h2>Markup</h2>
+    <p>HTML markup consists of several key components, including those called <i>tags</i> (and their <i>attributes</i>), character-based <i>data types</i>, <i>character references</i> and <i>entity references</i>. HTML tags most commonly come in pairs like <code>&lt;h1&gt;</code> and <code>&lt;/h1&gt;</code>, although some represent <i>empty elements</i> and so are unpaired, for example <code>&lt;img&gt;</code>. The first tag in such a pair is the <i>start tag</i>, and the second is the <i>end tag</i> (they are also called <i>opening tags</i> and <i>closing tags</i>).</p>
+    <p>Another important component is the HTML <i>document type declaration</i>, which triggers standards mode rendering.</p>
+    <p>The following is an example of the classic "Hello, World!" program:</p>
+    <pre>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;This is a title&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;div&gt;
+        &lt;p&gt;Hello world!&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+    </pre>
+    <p>The text between <code>&lt;html&gt;</code> and <code>&lt;/html&gt;</code> describes the web page, and the text between <code>&lt;body&gt;</code> and <code>&lt;/body&gt;</code> is the visible page content. The markup text <code>&lt;title&gt;This is a title&lt;/title&gt;</code> defines the browser page title shown on browser tabs and window titles and the tag <code>&lt;div&gt;</code> defines a division of the page used for easy styling. Between <code>&lt;head&gt;</code> and <code>&lt;/head&gt;</code>, a <code>&lt;meta&gt;</code> element can be used to define webpage metadata.</p>
+    <p>The Document Type Declaration <code>&lt;!DOCTYPE html&gt;</code> is for HTML5. If a declaration is not included, various browsers will revert to "quirks mode" for rendering.</p>
+
+    <h3>Elements</h3>
+    <div class="hatnote">Main article: <a href="#">HTML element</a></div>
+    <figure>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/1/10/HTML_element_content_categories.svg" alt="HTML element content categories" width="250">
+      <figcaption>HTML element content categories</figcaption>
+    </figure>
+    <p>HTML documents imply a structure of nested HTML elements. These are indicated in the document by HTML <i>tags</i>, enclosed in angle brackets.</p>
+    <p>In the simple, general case, the extent of an element is indicated by a pair of tags: a "start tag" <code>&lt;p&gt;</code> and "end tag" <code>&lt;/p&gt;</code>. The text content of the element, if any, is placed between these tags.</p>
+    <p>Tags may also enclose further tag markup between the start and end, including a mixture of tags and text. This indicates further (nested) elements, as children of the parent element.</p>
+    <p>The start tag may also include the element's <i>attributes</i> within the tag. These indicate other information, such as identifiers for sections within the document, identifiers used to bind style information to the presentation of the document, and for some tags such as the <code>&lt;img&gt;</code> used to embed images, the reference to the image resource in the format like this: <code>&lt;img src="example.com/example.jpg"&gt;</code></p>
+    <p>Some elements, such as the line break <code>&lt;br&gt;</code> do not permit <i>any</i> embedded content, either text or further tags. These require only a single empty tag (akin to a start tag) and do not use an end tag.</p>
+    <p>Many tags, particularly the closing end tag for the very commonly used paragraph element <code>&lt;p&gt;</code>, are optional. An HTML browser or other agent can infer the closure for the end of an element from the context and the structural rules defined by the HTML standard.</p>
+    <p>The general form of an HTML element is therefore: <code>&lt;tag attribute1="value1" attribute2="value2"&gt;content&lt;/tag&gt;</code>. Some HTML elements are defined as <i>empty elements</i> and take the form <code>&lt;tag attribute1="value1" attribute2="value2"&gt;</code>. Empty elements may enclose no content, for instance, the <code>&lt;br&gt;</code> tag or the inline <code>&lt;img&gt;</code> tag.</p>
+
+    <h4>Element examples</h4>
+    <div class="hatnote">See also: <a href="#">HTML element</a></div>
+    <p>Header of the HTML document: <code>&lt;head&gt;...&lt;/head&gt;</code>. The title is included in the head, for example:</p>
+    <pre>
+&lt;head&gt;
+  &lt;title&gt;The Title&lt;/title&gt;
+  &lt;link rel="stylesheet" href="stylebyjimbowales.css"&gt; <!-- Imports Stylesheets -->
+&lt;/head&gt;
+    </pre>
+    <h5>Headings</h5>
+    <pre>
+&lt;h1&gt;Heading level 1&lt;/h1&gt;
+&lt;h2&gt;Heading level 2&lt;/h2&gt;
+&lt;h3&gt;Heading level 3&lt;/h3&gt;
+&lt;h4&gt;Heading level 4&lt;/h4&gt;
+&lt;h5&gt;Heading level 5&lt;/h5&gt;
+&lt;h6&gt;Heading level 6&lt;/h6&gt;
+    </pre>
+    <blockquote>
+      <div style="font-size: 1.8em; font-family: Georgia,Times,serif; border-bottom: 1px solid #AAAAAA;">Heading Level 1</div>
+      <div style="font-size: 1.5em; font-family: Georgia,Times,serif; border-bottom: 1px solid #AAAAAA;">Heading Level 2</div>
+      <div style="font-size: 1.17em; font-weight: bold;">Heading Level 3</div>
+      <div style="font-size: 100%; font-weight: bold;">Heading Level 4</div>
+      <div style="font-size: 100%; font-weight: bold;">Heading Level 5</div>
+      <div style="font-size: 100%; font-weight: bold;">Heading Level 6</div>
+    </blockquote>
+    <p>Paragraphs:</p>
+    <pre>
+&lt;p&gt;Paragraph 1&lt;/p&gt; &lt;p&gt;Paragraph 2&lt;/p&gt;
+    </pre>
+    <h5>Line breaks</h5>
+    <p><code>&lt;br&gt;</code>. The difference between <code>&lt;br&gt;</code> and <code>&lt;p&gt;</code> is that <code>&lt;br&gt;</code> breaks a line without altering the semantic structure of the page, whereas <code>&lt;p&gt;</code> sections the page into paragraphs.</p>
+    <pre>
+&lt;p&gt;This &lt;br&gt; is a paragraph &lt;br&gt; with &lt;br&gt; line breaks&lt;/p&gt;
+    </pre>
+    <h5>Links</h5>
+    <p>This is a link in HTML. To create a link the <code>&lt;a&gt;</code> tag is used. The <code>href</code> attribute holds the URL address of the link.</p>
+    <pre>
+&lt;a href="https://www.wikipedia.org/"&gt;A link to Wikipedia!&lt;/a&gt;
+    </pre>
+    <h5>Inputs</h5>
+    <p>There are many possible ways a user can give inputs like:</p>
+    <pre>
+&lt;input type="text"&gt; <!-- This is for text input -->
+&lt;input type="file"&gt; <!-- This is for uploading files -->
+&lt;input type="checkbox"&gt; <!-- This is for checkboxes -->
+    </pre>
+    <b>Comments:</b>
+    <pre>
+&lt;!-- This is a comment --&gt;
+    </pre>
+    <p>Comments can help in the understanding of the markup and do not display in the webpage.</p>
+    <p>There are several types of markup elements used in HTML:</p>
+    <dl>
+      <dt>Structural markup indicates the purpose of text</dt>
+      <dd>For example, <code>&lt;h2&gt;Golf&lt;/h2&gt;</code> establishes "Golf" as a second-level heading. Structural markup does not denote any specific rendering, but most web browsers have default styles for element formatting. Content may be further styled using CSS.</dd>
+      <dt>Presentational markup indicates the appearance of the text, regardless of its purpose</dt>
+      <dd>For example, <code>&lt;b&gt;bold text&lt;/b&gt;</code> indicates that visual output devices should render "boldface" in bold text. There are other elements that may have equivalent visual renderings but that are more semantic in nature, such as <code>&lt;strong&gt;strong text&lt;/strong&gt;</code> and <code>&lt;em&gt;emphasized text&lt;/em&gt;</code>.</dd>
+      <dt>Hypertext markup makes parts of a document into links to other documents</dt>
+      <dd>An anchor element creates a hyperlink in the document and its <code>href</code> attribute sets the link's target URL. For example, <code>&lt;a href="https://en.wikipedia.org/"&gt;Wikipedia&lt;/a&gt;</code> will render the word "Wikipedia" as a hyperlink.</dd>
+    </dl>
+
+    <h4>Attributes</h4>
+    <div class="hatnote">Main article: <a href="#">HTML attribute</a></div>
+    <p>Most of the attributes of an element are name–value pairs, separated by <code>=</code> and written within the start tag of an element after the element's name. The value may be enclosed in single or double quotes.</p>
+    <ul>
+      <li>The <code>id</code> attribute provides a document-wide unique identifier for an element.</li>
+      <li>The <code>class</code> attribute provides a way of classifying similar elements.</li>
+      <li>An author may use the <code>style</code> attribute to assign presentational properties to a particular element.</li>
+      <li>The <code>title</code> attribute is used to attach a subtextual explanation to an element.</li>
+      <li>The <code>lang</code> attribute identifies the natural language of the element's contents.</li>
+    </ul>
+    <p>The abbreviation element, <code>abbr</code>, can be used to demonstrate some of these attributes:</p>
+    <pre>
+&lt;abbr id="anId" class="jargon" style="color:purple;" title="Hypertext Markup Language"&gt;HTML&lt;/abbr&gt;
+    </pre>
+    <p>This example displays as <abbr id="anId" class="jargon" style="color:purple;" title="Hypertext Markup Language">HTML</abbr>; in most browsers, pointing the cursor at the abbreviation should display the title text "Hypertext Markup Language."</p>
+    <p>Most elements take the language-related attribute <code>dir</code> to specify text direction, such as with "rtl" for right-to-left text in, for example, Arabic, Persian or Hebrew.</p>
+
+    <h3>Character and entity references</h3>
+    <div class="hatnote">See also: <a href="#">List of XML and HTML character entity references</a> and <a href="#">Unicode and HTML</a></div>
+    <p>As of version 4.0, HTML defines a set of 252 character entity references and a set of 1,114,050 numeric character references, both of which allow individual characters to be written via simple markup, rather than literally. A literal character and its markup counterpart are considered equivalent and are rendered identically.</p>
+    <p>The ability to "escape" characters in this way allows for the characters <code>&lt;</code> and <code>&amp;</code> (when written as <code>&amp;lt;</code> and <code>&amp;amp;</code>, respectively) to be interpreted as character data, rather than markup. For example, a literal <code>&lt;</code> normally indicates the start of a tag, and <code>&amp;</code> normally indicates the start of a character entity reference or numeric character reference; writing it as <code>&amp;amp;</code> or <code>&amp;#x26;</code> or <code>&amp;#38;</code> allows <code>&amp;</code> to be included in the content of an element or in the value of an attribute.</p>
+    <p>Escaping also allows for characters that are not easily typed, or that are not available in the document's character encoding, to be represented within the element and attribute content. For example, the acute-accented <code>e</code> (<code>é</code>), can be written as <code>&amp;eacute;</code> or as the numeric references <code>&amp;#xE9;</code> or <code>&amp;#233;</code>.</p>
+    <table class="wikitable">
+      <caption>HTML escape sequence examples</caption>
+      <tr>
+        <th>Named</th>
+        <th>Decimal</th>
+        <th>Hexadecimal</th>
+        <th>Result</th>
+        <th>Description</th>
+        <th>Notes</th>
+      </tr>
+      <tr>
+        <td><code>&amp;amp;</code></td>
+        <td><code>&amp;#38;</code></td>
+        <td><code>&amp;#x26;</code></td>
+        <td><code>&amp;</code></td>
+        <td>Ampersand</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><code>&amp;lt;</code></td>
+        <td><code>&amp;#60;</code></td>
+        <td><code>&amp;#x3C;</code></td>
+        <td><code>&lt;</code></td>
+        <td>Less Than</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><code>&amp;gt;</code></td>
+        <td><code>&amp;#62;</code></td>
+        <td><code>&amp;#x3E;</code></td>
+        <td><code>&gt;</code></td>
+        <td>Greater Than</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><code>&amp;quot;</code></td>
+        <td><code>&amp;#34;</code></td>
+        <td><code>&amp;#x22;</code></td>
+        <td><code>"</code></td>
+        <td>Double Quote</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><code>&amp;apos;</code></td>
+        <td><code>&amp;#39;</code></td>
+        <td><code>&amp;#x27;</code></td>
+        <td><code>'</code></td>
+        <td>Single Quote</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><code>&amp;nbsp;</code></td>
+        <td><code>&amp;#160;</code></td>
+        <td><code>&amp;#xA0;</code></td>
+        <td><code style="background-color: lightblue;">&nbsp;</code></td>
+        <td>Non-Breaking Space</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><code>&amp;copy;</code></td>
+        <td><code>&amp;#169;</code></td>
+        <td><code>&amp;#xA9;</code></td>
+        <td><code>©</code></td>
+        <td>Copyright</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><code>&amp;reg;</code></td>
+        <td><code>&amp;#174;</code></td>
+        <td><code>&amp;#xAE;</code></td>
+        <td><code>®</code></td>
+        <td>Registered Trademark</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><code>&amp;dagger;</code></td>
+        <td><code>&amp;#8224;</code></td>
+        <td><code>&amp;#x2020;</code></td>
+        <td><code>†</code></td>
+        <td>Dagger</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><code>&amp;ddagger;</code></td>
+        <td><code>&amp;#8225;</code></td>
+        <td><code>&amp;#x2021;</code></td>
+        <td><code>‡</code></td>
+        <td>Double dagger</td>
+        <td>Names are case-sensitive and may have synonyms.</td>
+      </tr>
+      <tr>
+        <td><code>&amp;trade;</code></td>
+        <td><code>&amp;#8482;</code></td>
+        <td><code>&amp;#x2122;</code></td>
+        <td><code>™</code></td>
+        <td>Trademark</td>
+        <td></td>
+      </tr>
+    </table>
+  </div>
+</body>
+</html>
