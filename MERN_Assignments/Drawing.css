@@ -124,9 +124,9 @@ body {
 .mountain-left {
     width: 0;
     height: 0;
-    border-left: 200px solid transparent;
-    border-right: 200px solid transparent;
-    border-bottom: 300px solid #4682B4;
+    border-left: 150px solid transparent;
+    border-right: 300px solid transparent;
+    border-bottom: 200px solid #4682B4;
     left: 10%;
     transform: translateX(-50%);
 }
@@ -135,7 +135,7 @@ body {
     width: 0;
     height: 0;
     border-left: 180px solid transparent;
-    border-right: 180px solid transparent;
+    border-right: 380px solid transparent;
     border-bottom: 280px solid #5F9EA0;
     right: 10%;
     transform: translateX(50%);
@@ -155,7 +155,7 @@ body {
     border-radius: 50% 50% 0 0;
     bottom: 35%;
     left: 0;
-
+}
 .hill-front {
     width: 100%;
     height: 100px;
