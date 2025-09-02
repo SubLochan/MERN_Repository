@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <table>
+            <tr> <td> <input type="email" placeholder="email"></input></td></tr>
+            <tr> <td> <input type="text" placeholder="first name"></input></tr>
+            <tr> <td> <input type="text" placeholder="last name"></input></tr>
+            <tr>  <td> <input type="Password" placeholder="password" id="pass" ></input></td></tr>
+            <tr> <td id = "error-msg"></td></tr>
+            <tr> <td> <input type="checkbox" checked>Email me with news and updates</input> </td> </tr>
+            <tr> </tr>
+            <tr> <td> By signingup you agree to our <u style="color:blueviolet;">Terms of Service</u> and <u style="color:blueviolet;">Privacy Policy</u></td></tr>
+            <tr> <td> <input type="button" value="Create Account" onclick="processPassword()" style="background-color: green;"></input></td></tr>
+        </table>
+    </form>
+</body>
+<script>
+    function processPassword() {
+        // 1. Capture the element to write the mesage
+        var err = document.getElementById("error-msg");
+        // 2. Write the Message 
+        err.innerHTML = "<em style='color:red;'>Password must have a value!</em>";
+
+        var pass = document.getElementById("pass");
+        alert("password:"+pass.value);
+
+    }
+</script>
+</html>

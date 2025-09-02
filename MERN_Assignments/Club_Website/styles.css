@@ -253,6 +253,50 @@ section {
 .feature p {
     color: var(--text-secondary);
 }
+/* Club - Members Section */
+.club-members {
+    padding: 60px 0;
+    background-color: #0f0f0f;
+    color: #fff;
+    text-align: center;
+}
+
+.members-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.member-card {
+    background-color: #1a1a1a;
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.member-card:hover {
+    transform: translateY(-5px);
+}
+
+.member-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.member-card h3 {
+    margin: 10px 0 5px;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.member-card p {
+    font-size: 0.9rem;
+    color: #ccc;
+}
 
 /* Projects Section */
 .projects-grid {
