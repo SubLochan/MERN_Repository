@@ -7,7 +7,7 @@ function showTask() {
 
 
  // ── TEACHING-BUG #2 (logic) ──
- output.innerHTML= input.value;
+ output.innerText= input.value;
 
 }
 

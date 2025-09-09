@@ -1,0 +1,38 @@
+/* Difficulty: easy */
+body {
+ font-family: sans-serif;
+ background: #f9f9f9;
+ padding: 2rem;
+ text-align: center;
+}
+
+
+#taskInput {
+ padding: 0.5rem;
+ width: 200px;
+ margin-bottom: 1rem;
+}
+
+
+#addBtn, #clearBtn {
+ padding: 0.5rem 1rem;
+ margin: 0.5rem;
+ cursor: pointer;
+}
+
+
+#taskList {
+ margin-top: 1rem;
+ background: #fff;
+ padding: 1rem;
+ color: #000000; /* ── TEACHING-BUG #4 (style) ── */
+ border: 1px solid #ddd;
+ text-align: center;
+}
+
+
+/* ── TEACHING-BUG #5 (style) ── */
+.task {
+ padding: 50rem;
+ margin-bottom: 0.1rem;
+}
